@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Neeraj Gundam — Information Technology student, developer, and aspiring data analyst." />
+  <title>Neeraj Gundam | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home">NG<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a><a href="#contact" class="nav-cta">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> OPEN TO OPPORTUNITIES</p>
+        <h1>Hi, I'm <span>Neeraj Gundam.</span><br>Building useful things with code & data.</h1>
+        <p class="hero-text">Information Technology undergraduate at Sreenidhi Institute of Science and Technology, interested in software development, data analytics, and practical problem-solving.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="button button-secondary" href="#contact">Get in touch</a>
+        </div>
+        <div class="quick-facts"><div><strong>8.34</strong><span>CGPA / 10</span></div><div><strong>300+</strong><span>Coding problems</span></div><div><strong>2027</strong><span>Graduation</span></div></div>
+      </div>
+      <div class="hero-art" aria-label="Decorative abstract code illustration">
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+        <div class="code-card"><div class="code-top"><i></i><i></i><i></i><span>developer.js</span></div>
+          <pre><code><b>const</b> developer = {
+  name: <em>'Neeraj Gundam'</em>,
+  education: <em>'B.Tech IT'</em>,
+  interests: [
+    <em>'Development'</em>,
+    <em>'Data Analytics'</em>,
+    <em>'Machine Learning'</em>
+  ],
+  mindset: <em>'Keep learning'</em>
+};</code></pre>
+        </div>
+        <div class="floating-tag tag-data">⌁ Data + Insights</div><div class="floating-tag tag-code">&lt;/&gt; Build + Learn</div>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading"><p class="eyebrow">01 / ABOUT</p><h2>A little about me</h2></div>
+      <div class="about-grid"><p class="about-lead">I’m an IT student who enjoys turning ideas into practical digital solutions.</p>
+        <div class="about-detail"><p>My experience includes building full-stack applications, exploring machine learning workflows, and using data to uncover useful patterns. I enjoy collaborating in hackathons, solving coding problems, and continuously learning new technologies.</p>
+          <div class="education-card"><span class="card-icon">⌂</span><div><strong>Sreenidhi Institute of Science and Technology</strong><p>B.Tech — Information Technology · 2023–2027</p><p>CGPA: 8.34 / 10.0</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="skills"><div class="container">
+      <div class="section-heading"><p class="eyebrow">02 / TOOLKIT</p><h2>Skills & technologies</h2><p class="section-subtitle">Tools and concepts I use to build, analyze, and solve problems.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-icon">⌘</div><h3>Programming</h3><div class="chips"><span>Java</span><span>Python</span><span>C</span></div></article>
+        <article class="skill-card"><div class="skill-icon">◈</div><h3>Web technologies</h3><div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+        <article class="skill-card"><div class="skill-icon">▤</div><h3>Data & databases</h3><div class="chips"><span>MySQL</span><span>MongoDB</span><span>Power BI</span></div></article>
+        <article class="skill-card"><div class="skill-icon">⌁</div><h3>Core concepts & tools</h3><div class="chips"><span>DSA</span><span>OOP</span><span>DBMS</span><span>Operating Systems</span><span>Computer Networks</span><span>Git</span><span>GitHub</span></div></article>
+      </div>
+    </div></section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading"><p class="eyebrow">03 / SELECTED WORK</p><h2>Projects I've worked on</h2><p class="section-subtitle">A selection of applications and analytical projects from my learning journey.</p></div>
+      <div class="projects-grid">
+        <article class="project-card project-featured"><div class="project-visual visual-scheme"><span class="visual-label">FULL-STACK WEB APP</span><div class="mini-window"><div class="mini-bar"></div><div class="mini-content"><div class="mini-line wide"></div><div class="mini-line"></div><div class="mini-boxes"><i></i><i></i><i></i></div></div></div></div>
+          <div class="project-body"><div class="project-meta"><span>01</span><span>React · Node · MongoDB · JWT</span></div><h3>Scholarship Subsidy Access Platform</h3><p>Developed a platform that aggregates scholarship and government subsidy schemes and matches users with opportunities based on eligibility, category, state, and authority.</p><ul><li>Implemented JWT and bcrypt-based authentication with protected eligibility checking and personalized recommendations.</li><li>Added Telugu and Hindi translations, an interactive chatbot, PDF generation, and Google Calendar deadline reminders.</li></ul><div class="project-tags"><span>React.js</span><span>Express.js</span><span>MongoDB</span><span>Google Calendar API</span></div></div></article>
+        <article class="project-card"><div class="project-visual visual-expense"><span class="visual-label">MACHINE LEARNING</span><div class="chart-art"><div class="chart-bars"><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="chart-ring">AI</div></div></div>
+          <div class="project-body"><div class="project-meta"><span>02</span><span>Python · ML · Streamlit</span></div><h3>Personal Expense Pattern Detector</h3><p>Built a machine learning application to categorize transaction data, identify unusual spending patterns, and help users understand their spending behavior.</p><ul><li>Used classification and anomaly detection techniques to categorize expenses and flag potentially abnormal transactions.</li><li>Created a Streamlit dashboard with CSV uploads, spending trends, and category-level insights.</li></ul><div class="project-tags"><span>Python</span><span>Pandas</span><span>Scikit-learn</span><span>Streamlit</span></div></div></article>
+      </div>
+      <p class="note"><strong>More work:</strong> Add your GitHub repository links to each project when they are ready. No repository URLs were included in the resume.</p>
+    </section>
+
+    <section class="section section-muted" id="achievements"><div class="container">
+      <div class="section-heading"><p class="eyebrow">04 / BEYOND THE CLASSROOM</p><h2>Hackathons & achievements</h2></div>
+      <div class="timeline">
+        <article class="timeline-item"><div class="timeline-mark">🏆</div><div><div class="timeline-title"><h3>Hack-it-on — Winning Project</h3><span>Hackathon</span></div><p>Developed FixMyStreet, a civic issue reporting platform with automated authority notifications. Collaborated with teammates to design, develop, and present the solution.</p></div></article>
+        <article class="timeline-item"><div class="timeline-mark">⌁</div><div><div class="timeline-title"><h3>Sreenidhi Hackfest</h3><span>Data analysis</span></div><p>Performed SQL-based analysis on the Zepto inventory dataset to identify pricing trends and inventory insights.</p></div></article>
+        <article class="timeline-item"><div class="timeline-mark">✓</div><div><div class="timeline-title"><h3>300+ coding problems solved</h3><span>MentorPick</span></div><p>Practiced problem-solving and algorithmic thinking through 300+ coding challenges.</p></div></article>
+        <article class="timeline-item"><div class="timeline-mark">✦</div><div><div class="timeline-title"><h3>Data Analytics Project Certification</h3><span>Certification</span></div><p>Completed a Data Analytics Project Certification.</p></div></article>
+      </div>
+    </div></section>
+
+    <section class="section container contact-section" id="contact">
+      <div class="contact-panel"><div><p class="eyebrow">05 / CONTACT</p><h2>Have an opportunity<br>or an idea?</h2><p class="contact-copy">I’m open to connecting about entry-level opportunities, collaborations, and interesting projects.</p></div>
+        <div class="contact-links"><a href="mailto:neerajgundam12@gmail.com"><span>EMAIL</span>neerajgundam12@gmail.com ↗</a><a href="tel:+916301661881"><span>PHONE</span>+91 63016 61881 ↗</a><a href="https://www.linkedin.com/in/neeraj-gundam" target="_blank" rel="noopener noreferrer"><span>LINKEDIN</span>linkedin.com/in/neeraj-gundam ↗</a></div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home">NG<span>.</span></a><p>Designed & built by Neeraj Gundam · <span id="year"></span></p><a href="#home">Back to top ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
